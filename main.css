@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    padding:30px ;
+    color:white;
+}
+
+.container{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    gap: 10px;
+}
+.menu a{
+    text-decoration: none;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 7px;
+    color: white;
+}
+.menu a:hover{
+    background-color: red;
+    color: white;
+
+}
+
+
+
+.conteudo1{
+    display: flex;
+    align-content: space-between;
+    justify-content: flex-start;
+}
