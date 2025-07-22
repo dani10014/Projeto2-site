@@ -5,14 +5,21 @@
 }
 header{
     background-color: black;
-    padding:30px ;
+    padding:30px;
     color:white;
+    width:100%;
+    height: auto;
 }
 
 .container{
     display: flex;
     align-items:center;
     justify-content: space-between;
+    
+}
+.container h1{
+    font-family: Roboto Condensed,sans-serif;
+    
 }
 
 .menu{
@@ -31,11 +38,91 @@ header{
     color: white;
 
 }
-
-
-
+    /*conteudo principal de Cupckackes*/
 .conteudo1{
     display: flex;
     align-content: space-between;
     justify-content: flex-start;
+    margin: 50px;
+    background-color: rgba(74, 69, 69, 0.065);
+    border-radius: 40px;
+    padding-bottom: 10px;
+} 
+    
+.conteudo-cupcackes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.conteudo-cupcackes img{
+    width:200px;
+    height: 200px;
+    
+}
+.conteudo-cupcackes input{
+    border: none;
+    margin-top: 6px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.conteudo-cupcackes input:hover{
+    background-color: red;
+    color: white;
+}
+.conteudo-cupcackes .preco{
+    margin-top: 5px;
+}
+
+    /*conteudo principal de bolos*/
+
+.conteudo2{
+    display: flex;
+    align-content: space-between;
+    justify-content: flex-start;
+    margin: 50px;
+    background-color: rgba(74, 69, 69, 0.065);
+    border-radius: 40px;
+    padding-bottom: 10px;
+}
+.conteudo-bolos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conteudo-bolos img{
+    width:200px;
+    height: 200px;   
+}
+.conteudo-bolos input{
+    border: none;
+    margin-top: 6px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.conteudo-bolos input:hover{
+    background-color: red;
+    color: white;
+}
+.conteudo-bolos .preco{
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+s
+
+tfoot .rodape{
+    background-color: black;
+    color: white;
 }
