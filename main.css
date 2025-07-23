@@ -21,24 +21,40 @@ header{
     font-family: Roboto Condensed,sans-serif;
     
 }
-
 .menu{
     display: flex;
     gap: 10px;
 }
 .menu a{
     text-decoration: none;
-    border: 3px solid white;
+    border: 2px solid white;
     border-radius: 20px;
-    padding: 7px;
+    padding: 10px;
     color: white;
+    font-family: Roboto,sans-serif;
 }
 .menu a:hover{
     background-color: red;
     color: white;
 
 }
+/*input do carrinho de compras*/
+.menu .Input-carrinho{
+    border: none;
+    padding: 0px;
+    border-radius: 20px;
+
+}
+/*icone do carrinho de compras*/
+.menu .carrinho{
+    border: none;
+    width: 36px;
+    height: 39px;
+    padding-top: 5px;
+}
+
     /*conteudo principal de Cupckackes*/
+
 .conteudo1{
     display: flex;
     align-content: space-between;
@@ -48,18 +64,20 @@ header{
     border-radius: 40px;
     padding-bottom: 10px;
 } 
-    
+    /*container do conteudo de Cupcackes*/
 .conteudo-cupcackes{
     display: flex;
     flex-direction: column;
     align-items: center;
     
 }
+    /*imagems do conteudo de Cupcackes*/
 .conteudo-cupcackes img{
     width:200px;
     height: 200px;
     
 }
+    /*Botões comprar do conteudo de Cupcackes*/
 .conteudo-cupcackes input{
     border: none;
     margin-top: 6px;
@@ -68,16 +86,17 @@ header{
     background-color: black;
     color: white;
 }
+    /*Efeito hover do botão comprar do conteudo de Cupcackes*/
 .conteudo-cupcackes input:hover{
     background-color: red;
     color: white;
 }
+    /*preço do conteudo de Cupcackes*/
 .conteudo-cupcackes .preco{
     margin-top: 5px;
 }
 
-    /*conteudo principal de bolos*/
-
+    /*################# conteudo principal de bolos ###############################*/
 .conteudo2{
     display: flex;
     align-content: space-between;
@@ -87,15 +106,19 @@ header{
     border-radius: 40px;
     padding-bottom: 10px;
 }
+
+    /*container do conteudo de Bolos*/
 .conteudo-bolos{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+    /*imagens do conteudo de Bolos*/
 .conteudo-bolos img{
     width:200px;
     height: 200px;   
 }
+    /*Botões comprar do conteudo de Bolos*/
 .conteudo-bolos input{
     border: none;
     margin-top: 6px;
@@ -104,10 +127,12 @@ header{
     background-color: black;
     color: white;
 }
+    /*Efeito hover do botão comprar do conteudo de Bolos*/
 .conteudo-bolos input:hover{
     background-color: red;
     color: white;
 }
+    /*preço do conteudo de Bolos*/
 .conteudo-bolos .preco{
     margin-top: 5px;
 }

@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    padding:30px;
+    color:white;
+    width:100%;
+    height: auto;
+}
+.container{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.container h1{
+    font-family: Roboto Condensed,sans-serif;
+}
+.menu{
+    display: flex;
+    gap: 10px;
+}
+.menu a{
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 7px;
+    color: white;
+    font-family: Roboto,sans-serif;
+}
+.menu a:hover{
+    background-color: red;
+    color: white;
+}
+
+
+/*Conteudo principal sobre*/
+
+main .sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    background-color: rgba(74, 69, 69, 0.065);
+    border-radius: 40px;
+    padding: 20px;
+}
+
+main .sobre img{
+    width: 800px;
+    height: 600px;
+    border-radius: 30px;
+}
+main .sobre h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+main .sobre p{
+    width: 800px;
+    text-align: center;
+    font-family: Special Gothic Expanded One, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
