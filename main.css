@@ -137,17 +137,10 @@ header{
     margin-top: 5px;
 }
 
+/*################ Rodape ###############################*/
 
-
-
-
-
-
-
-
-s
-
-tfoot .rodape{
+footer{
     background-color: black;
     color: white;
+    padding:20px ;
 }

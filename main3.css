@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    width: 100%;
+    height: auto;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu a{
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.menu a:hover{
+    background-color: red;
+    color: white;
+}
+
+/*conteudo principal formulario*/
+
+/*conatainer do formulario*/
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px  rgba(36, 29, 72, 0.459);
+    margin-left :300px;
+    margin-right:300px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+/*texto fale com a gente*/
+main .sobre{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 20px;
+}
+/*inputs do formulario*/ 
+.formulario input{
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: solid 1px black;
+    font-family: 'Roboto Condensed', sans-serif ;
+}
+/*texto e tamanho do input assunto*/
+main #texto{
+    height: 60px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-left: 6px;
+}
+/*botao enviar e tamanho*/
+main #botao-enviar{
+    margin-bottom: 10px;
+    height: 40px;
+    border-color: rgb(255, 255, 255);
+    background-color: black;
+    color:white;
+}
+/*mudança de cor do botão enviar*/
+main #botao-enviar:hover{
+    background-color: red;
+    color: white;
+
+}
+
+/*################# Midia e Endereço############################*/
+
+.midia{
+    display: flex;
+    align-content: space-between;
+    gap: 100px;
+    margin: 40px;
+}
+.instagram{
+    display: flex;
+    flex-direction: column;
+}
+.instagram img{
+    width: 40px;
+    height: 40px;
+}
+.instagram ul li{
+    margin-top: 10px;
+    list-style: none;
+}
+
+/*##########################Endereço################################*/
+
+.endereco{
+    display: flex;
+    flex-direction: column; 
+}
+.horarios{
+    display: flex;
+    flex-direction: column;
+}
+
+/*#########################Rodape###################################*/
+
+footer{
+    background-color: black;
+    color: white;
+    padding:20px ;
+}
